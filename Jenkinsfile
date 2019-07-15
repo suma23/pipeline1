@@ -4,8 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                sh 'uname -r'
-                sh 'uname -r'
+                sh 'una'
             }
         }
     }
